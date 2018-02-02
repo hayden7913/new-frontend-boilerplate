@@ -28,7 +28,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(['build']),
     new HtmlWebpackPlugin({
-      template: `${__dirname}/public/index.html`,
+      title: 'Wepack App',
     }),
     new webpack.NamedModulesPlugin(),
   ],

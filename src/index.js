@@ -10,11 +10,11 @@ import './index.css';
 
 
 ReactDOM.render(
-  <Provider store={ store }>
+  <Provider store={store}>
     <Router history={hashHistory}>
       <Route path="/app" component={App}/>
       <Route path="/*" component ={HomePage}/>
     </Router>
-  </Provider>,
+  </Provider>
   document.getElementById('root')
 );
