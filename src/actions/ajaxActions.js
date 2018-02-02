@@ -1,6 +1,6 @@
 import { projectsUrl } from '../config/endpointUrls';
 import { Route, hashHistory } from 'react-router';
-import store from 'reduxFiles/store';
+import store from '../store/store';
 
 const url = 'testRouter';
 
