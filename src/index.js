@@ -6,8 +6,7 @@ import { Provider } from 'react-redux';
 import store from './store/store';
 import App from './components/App'
 import HomePage from './components/HomePage';
-import './index.css';
-
+import './index.scss';
 
 ReactDOM.render(
   <Provider store={store}>
@@ -15,6 +14,6 @@ ReactDOM.render(
       <Route path="/app" component={App}/>
       <Route path="/*" component ={HomePage}/>
     </Router>
-  </Provider>
+  </Provider>,
   document.getElementById('root')
 );

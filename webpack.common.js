@@ -29,6 +29,7 @@ module.exports = {
     new CleanWebpackPlugin(['build']),
     new HtmlWebpackPlugin({
       title: 'Wepack App',
+      template: path.resolve(__dirname, 'public', 'index.html'),
     }),
     new webpack.NamedModulesPlugin(),
   ],
